@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_report_line_sale" model="ir.ui.view">
+	<field name="name">Vista Tippic</field>
+        <field name="model">account.invoice.report</field>
+        <field name="inherit_id" ref="account_invoice_line_report.view_invoice_report_tree_info"/>
+        <field name="arch" type="xml">
+		<tree position="replace">
+			<tree>
+                		<field name="invoice_date"/>
+                		<field name="move_id" string="Factura"/>
+                		<field name="partner_id" string="Cliente" />
+				<field name="default_code" string="Codigo"/>
+				<field name="name_product" string="Articulo"/>
+                		<field name="product_categ_id" string="Categoria"/>
+				<field name="unit_product" string="Unidad de Negocio"/>
+				<field name="line_product" string="Linea"/>
+				<field name="name_currency" string="Moneda"/>
+				<field name="rate_change_match" string="Cambio"/>
+				<field name="quantity" string="Quantity"/>
+				<field name="price_unit" string="Precio Unitario"/>
+				<field name="price_total" string="Sub Total"/>
+            		</tree>
+		</tree>
+	</field>
+    </record>
+</odoo>

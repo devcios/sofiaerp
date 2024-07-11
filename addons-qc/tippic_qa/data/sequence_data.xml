@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="tippic_qa_quality_control_sequence" model="ir.sequence">
+        <field name="name">Clase de control de calidad Sequence</field>
+        <field name="code">tippic_qa.quality_control</field>
+        <field name="prefix">QC</field>
+        <field name="padding">5</field>
+        <field name="number_increment">1</field>
+        <field name="number_next">1</field>
+    </record>
+
+    <record id="tippic_qa_stock_move_sequence" model="ir.sequence">
+        <field name="name">Movimiento de Stock del modulo de QA Sequence</field>
+        <field name="code">stock.move</field>
+        <field name="prefix">MV</field>
+        <field name="padding">5</field>
+        <field name="number_increment">1</field>
+        <field name="number_next">1</field>
+    </record>
+
+    <record id="tippic_qa_by_products_lots_sequence" model="ir.sequence">
+        <field name="name">Secuancias para los lotes de generados</field>
+        <field name="code">stock.production.lot</field>
+        <field name="prefix">LOT</field>
+        <field name="padding">5</field>
+        <field name="number_increment">1</field>
+        <field name="number_next">1</field>
+    </record>
+</odoo>

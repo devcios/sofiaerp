@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_cpe_partner_retencion_form">
+        <field name="name">res.partner.view.form.inherit.retencion</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='banks']" position="after">
+                <group string="Retencion" name="retencion"  >
+                    <field name="pe_is_retention" string="Retencion"  />
+                    <field name="pe_retention_percent" attrs="{'invisible': [('pe_is_retention','=',False)]}"/>
+                </group>
+
+	        </xpath>
+            
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_cpe_account_retencion_form">
+        <field name="name">account.move retencion</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="l10n_pe_edi.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='l10n_pe_edi_electronic_info']" position="after">
+                <group string="Retencion" name="retencion"  >
+                    <field name="pe_is_retention"  string="Retencion" />
+                    <field name="pe_retention_percent" attrs="{'invisible': [('pe_is_retention','=',False)]}"/>
+                    <field name="pe_retention_amount" attrs="{'invisible': [('pe_is_retention','=',False)]}"  />
+                    
+                </group>
+
+	        </xpath>
+            
+        </field>
+    </record>
+
+</odoo>
+

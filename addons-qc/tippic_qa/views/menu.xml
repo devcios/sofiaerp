@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="tippic_qa_menu_root_id"
+              name="Calidad"
+              web_icon="tippic_qa,static/description/icon.png"
+              sequence="0"
+    >
+        <menuitem id="tippic_qa_test_root_id"
+                  name="Operaciones"
+                  sequence="1"
+        >
+            <menuitem id="tippic_qa_test_pruebas_calidad"
+                    name="Control de Calidad"
+                    action="action_tippic_qa_tests"
+                    sequence="1"
+            />
+            <menuitem id="tippic_qa_test_calendar_calidad"
+                      name="Pruebas de Calidad"
+                      action="action_tippic_qa_calendar"
+                      sequence="2"
+            />
+        </menuitem>
+        <menuitem id="tippic_qa_configuracion_root_id"
+                  name="Configuración"
+                  sequence="2"
+        >
+            <menuitem id="tippic_qa_puntos_de_control_conf_id"
+                name="Puntos de Control"
+                sequence="1"
+                action="action_tippic_qa_punto_de_control"
+            />
+            <menuitem id="tippic_qa_tags_de_calidad_conf_id"
+                name="Etiquetas de Calidad"
+                sequence="2"
+                action="action_tippic_qa_tags_de_calidad"
+            />
+            <menuitem id="tippic_qa_tipos_de_control_conf_id"
+                name="Quality Control Type"
+                sequence="3"
+                action="action_tippic_qa_tipos_de_control"
+            />
+        </menuitem>
+    </menuitem>
+</odoo>

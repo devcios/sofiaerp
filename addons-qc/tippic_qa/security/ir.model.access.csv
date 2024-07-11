@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_to_tippic_qa_controlPoint,tippic_qa.control_point,tippic_qa.model_tippic_qa_control_point,base.group_user,1,1,1,1
+access_to_tippic_qa_tags,tippic_qa.tags,tippic_qa.model_tippic_qa_tags,base.group_user,1,1,1,1
+access_to_tippic_qa_control_type,tippic_qa.control_type,tippic_qa.model_tippic_qa_control_type,base.group_user,1,1,1,1
+access_to_tippic_qa_quality_control,tippic_qa.quality_control,tippic_qa.model_tippic_qa_quality_control,base.group_user,1,1,1,1
+access_to_tippic_qa_quality_test,tippic_qa.quality_test,tippic_qa.model_tippic_qa_quality_test,base.group_user,1,1,1,1

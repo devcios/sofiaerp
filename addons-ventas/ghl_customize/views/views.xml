@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Heredar la vista de Order Sale -->
+        <record id="sale_order_view_inherit" model="ir.ui.view">
+            <field name="name">sale.order.form.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <!-- Agregar la vista de condiciones de venta dentro del cuaderno -->
+                <xpath expr="//page[@name='other_information']" position="after">
+                    <page string="Condiciones de Venta" name="condition_page">
+                      <field name="so_condition" mode="tree,form">
+			<tree string="Sales Condition" editable="bottom">
+                               <field name="consideration"/>
+                                <field name="area"/>
+                                <field name="si_no" />
+                                <field name="accion" />
+			</tree>
+			<form string="Optional Conditions">
+                            <group>
+                                <field name="consideration"/>
+                                <field name="area"/>
+                                <field name="si_no" />
+				<field name="accion" />
+                            </group>
+                        </form>
+                       </field>                 
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+	<record id="sale_condition_tree_view" model="ir.ui.view">
+            <field name="name">sale.condition.tree</field>
+            <field name="model">sale.condition</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="consideration"/>
+                    <field name="area"/>
+                    <field name="si_no"/>
+		    <field name="accion"/>
+                </tree>
+            </field>
+        </record>
+
+	<record model="sale.condition" id="sale_condition_1">
+            <field name="consideration">El servicio es alto riesgo y requiere prevencionista</field>
+            <field name="area">sass</field>
+            <field name="si_no">si</field>
+            <field name="accion">Requiere perfil de alto riego en GOSST</field>
+        </record>
+	<record model="sale.condition" id="sale_condition_2">
+            <field name="consideration">El servicio es alto riesgo y requiere prevencionista</field>
+            <field name="area">sass</field>
+            <field name="si_no">no</field>
+            <field name="accion">Solo requiere perfil operativo en GOSST</field>
+        </record>
+	<record model="sale.condition" id="sale_condition_3">
+            <field name="consideration">El servicio se realizara en zona en contacto con producto</field>
+            <field name="area">qc</field>
+            <field name="si_no">si</field>
+            <field name="accion">Requiere validacion de QA_SA al finalizar</field>
+        </record>
+	<record model="sale.condition" id="sale_condition_4">
+            <field name="consideration">El servicio se realizara en zona en contacto con producto</field>
+            <field name="area">qc</field>
+            <field name="si_no">no</field>
+            <field name="accion">Dejar el area limpieza y ordenada</field>
+        </record>
+	<record model="sale.condition" id="sale_condition_5">
+            <field name="consideration">El servicio se realizara dentro de planta Santa Anita</field>
+            <field name="area">mntto</field>
+            <field name="si_no">si</field>
+            <field name="accion">Requiere informe tecnico fotografico</field>
+        </record>
+	<record model="sale.condition" id="sale_condition_6">
+            <field name="consideration">El servicio se realizara dentro de planta Santa Anita</field>
+            <field name="area">mntto</field>
+            <field name="si_no">no</field>
+            <field name="accion">Requiere informe y guias de remision</field>
+        </record>
+
+          </data>
+</odoo>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="tippic_qa_tipos_de_control_form" model="ir.ui.view">
+        <field name="name">tippic_qa.control_type.form</field>
+        <field name="model">tippic_qa.control_type</field>
+        <field name="arch" type="xml">
+            <form string="Quality control type">
+                    <sheet>
+                        <widget name="web_ribbon" title="Archivado" bg_color="bg-danger" attrs="{'invisible': [('active', '=', True)]}"/>
+                        <widget name="web_ribbon" title="Activo" bg_color="bg-success" attrs="{'invisible': [('active', '=', False)]}"/>
+                        <field name="active" invisible="1"/>
+                        <div class="oe_title">
+                            <label for="name"/>
+                            <h3><field name="name" placeholder="Name"/></h3>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="internal_type"/>
+                                <field name="sequence"/>
+                            </group>
+                            <group>
+                                <field name="default_generate"/>
+                                <field name="process_move_dest"/>
+                            </group>
+                        </group>
+                    </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="tippic_qa_tipos_de_control_tree" model="ir.ui.view">
+        <field name="name">tippic_qa.control_type.tree</field>
+        <field name="model">tippic_qa.control_type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="internal_type"/>
+                <field name="default_generate"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_tippic_qa_tipos_de_control" model="ir.actions.act_window">
+        <field name="name">Quality control type</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">tippic_qa.control_type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="tippic_qa_tipos_de_control_tree"/>
+    </record>
+
+
+</odoo>

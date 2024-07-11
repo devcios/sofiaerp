@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="tippic_qa_tags_de_calidad_1" model="tippic_qa.tags">
+            <field name="name">Proceso</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_2" model="tippic_qa.tags">
+            <field name="name">Error de ingreso al sistema</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_3" model="tippic_qa.tags">
+            <field name="name">Unidades menos en 2 cajas</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_4" model="tippic_qa.tags">
+            <field name="name">Gel aguado</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_5" model="tippic_qa.tags">
+            <field name="name">Quemado en codigo</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_6" model="tippic_qa.tags">
+            <field name="name">Despintado</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_7" model="tippic_qa.tags">
+            <field name="name">Hueco</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_8" model="tippic_qa.tags">
+            <field name="name">Error de ingreso</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_9" model="tippic_qa.tags">
+            <field name="name">Se cogió para muestra</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_10" model="tippic_qa.tags">
+            <field name="name">Cambio mano a mano</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_11" model="tippic_qa.tags">
+            <field name="name">Error en el corte</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_12" model="tippic_qa.tags">
+            <field name="name">Deslaminado</field>
+        </record>
+        <record id="tippic_qa_tags_de_calidad_13" model="tippic_qa.tags">
+            <field name="name">Hueco en doblez de la manga</field>
+        </record>
+    </data>
+</odoo>

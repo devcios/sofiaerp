@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="tippic_qa_tags_de_calidad_tree" model="ir.ui.view">
+        <field name="name">tippic_qa.tags.tree</field>
+        <field name="model">tippic_qa.tags</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_tippic_qa_tags_de_calidad" model="ir.actions.act_window">
+        <field name="name">Etiquetas de Calidad</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">tippic_qa.tags</field>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="tippic_qa_tags_de_calidad_tree"/>
+    </record>
+
+
+</odoo>

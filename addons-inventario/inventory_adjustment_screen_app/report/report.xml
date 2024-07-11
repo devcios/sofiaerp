@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_report_stock_inventory" model="ir.actions.report">
+            <field name="name">Count Sheet</field>
+            <field name="model">stock.quant</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">inventory_adjustment_screen_app.report_stock_inventory</field>
+            <field name="report_file">inventory_adjustment_screen_app.report_stock_inventory</field>
+            <field name="print_report_name">'Count Sheet'</field>
+            <field name="binding_model_id" ref="stock.model_stock_quant"/>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>

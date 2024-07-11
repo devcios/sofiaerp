@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="tippic_qa_res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">tippic.qa.configuration</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="30"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+
+                    <div class="app_settings_block" data-string="Calidad" string="Calidad" data-key="tippic_qa">
+                        <h2>Operaciones</h2>
+                        <div class="row mt16 o_settings_container" name="typpic_default_operations">
+                            <div class="col-12 col-lg-12 o_setting_box"
+                                id="tippic_qa_operations_block"
+                                title="Configuración de Operaciones">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">Configuración de Operaciones</span>
+                                    <div>
+                                        <p>Antes de Iniciar las operaciones asegúrate de lo siguiente:</p>
+                                        <ol>
+                                            <li>Crear la Ubicación de Cuarentena</li>
+                                            <li>La operación de fabricación debe tener como destino la ubicación de Cuarentena</li>
+                                            <li>En el setting de Inventario este habilitado el seguimiento por Lotes</li>
+                                            <li>En el setting de Manufactura este habilitado Los Subproductos</li>
+                                            <li>Que todos los productos tengan activado el seguimiento por lotes en la pestaña de Inventario</li>
+                                            <li>Que todos los productos tengan las rutas de fabricación y compras en la pestaña de Inventario</li>
+                                        </ol>
+                                    </div>
+                                    <hr/>
+                                    <div class="text-muted">
+                                        Estas operaciones serán usadas para mover los lotes a producto terminado o a Descarte
+                                    </div>
+                                    <div class="text-muted">
+                                        Descarte: Cuarentena -> Virtual Scrap
+                                    </div>
+                                    <div class="text-muted">
+                                        Pruebas Terminadas: Almacén Cuarentena -> Almacén Producto Terminado
+                                    </div>
+                                    <div class="content-group">
+                                        <div class="row mt16">
+                                            <label string="Operación de Cuarentena" for="operation_quarantine" class="col-lg-3 o_light_label"/>
+                                            <field name="operation_quarantine"/>
+                                        </div>
+                                        <div class="row">
+                                            <label string="Operación de Descarte" for="operation_scrap" class="col-lg-3 o_light_label"/>
+                                            <field name="operation_scrap"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="tippic_qa_action_config_settings" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'tippic_qa', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="menu_tippic_qa_general_settings" name="Settings" parent="tippic_qa_configuracion_root_id"
+                  sequence="0" action="tippic_qa_action_config_settings" groups="base.group_system"/>
+
+    </data>
+</odoo>

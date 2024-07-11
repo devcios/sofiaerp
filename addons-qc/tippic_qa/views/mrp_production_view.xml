@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="tippic_qa_mrp_production_form_view">
+        <field name="name">tippic.qa.mrp.production.form.view</field>
+        <field name="model">mrp.production</field>
+        <field name="inherit_id" ref="mrp.mrp_production_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='miscellaneous']" position="inside">
+                <group>
+                    <field name="quantity_waste"/>
+                    <field name="reprocess"/>
+                    <field name="nonconformity"/>
+                </group>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button class="oe_stat_button"
+                        attrs="{'invisible':[('state','not in', ['done', 'cancel'])]}"
+                        name="action_go_to_qa_test_order"
+                        type="object"
+                        icon="fa-list-ul"
+                       >
+                       <div class="o_field_widget o_stat_info">
+                           <span class="o_stat_value"><field name="test_count"/></span>
+                           <span class="o_stat_text">Pruebas</span>
+                       </div>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

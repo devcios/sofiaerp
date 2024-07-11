@@ -1,0 +1,15 @@
+<template id="pe_ubl_2_1_invoice_line" inherit_id="l10n_pe_edi.pe_ubl_2_1_common_line" primary="True">
+    <xpath expr="//*[name()='cac:PaymentTerms']" position="after">
+        <t t-if="pe_is_retention" 
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" 
+            xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+            <cac:AllowanceCharge>
+                <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+                <cbc:AllowanceChargeReasonCode>62</cbc:AllowanceChargeReasonCode>
+                <cbc:MultiplierFactorNumeric  t-esc="format_float(pe_retention_percent)" />
+                <cbc:Amount  t-att-currencyID="record.currency_id.name"  t-esc="format_float(pe_retention_amount)" />
+                <cbc:BaseAmount  t-att-currencyID="record.currency_id.name" t-esc="format_float(record.amount_total)" />
+            </cac:AllowanceCharge>
+        </t>
+    </xpath>
+</template>

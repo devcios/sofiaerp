@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="tippic_qa_product_template_points_control">
+        <field name="name">tippic.qa.template.form.points.of.control</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='inventory']" position="inside">
+                <group name="group_tippic_qa_points_of_control" string="Puntos de control">
+                    <field name="point_of_controls_id" widget="many2many_tags"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,785 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* s2u_online_appointment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-03 09:39+0000\n"
+"PO-Revision-Date: 2020-04-03 09:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "&amp;times;"
+msgstr ""
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "<small class=\"text-muted\">Appointment - </small>"
+msgstr "<small class=\"text-muted\">Rendez-vous - </small>"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+msgid "<span class=\"badge badge-pill badge-danger\">Pending ...</span>"
+msgstr "<span class=\"badge badge-pill badge-danger\">En cours ...</span>"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+msgid "<span class=\"badge badge-pill badge-info\">Canceled</span>"
+msgstr "<span class=\"badge badge-pill badge-info\">Annulé</span>"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+msgid "<span class=\"badge badge-pill badge-info\">Confirmed</span>"
+msgstr "<span class=\"badge badge-pill badge-info\">Confirmer</span>"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "<strong>Message and communication history</strong>"
+msgstr "<strong>Historique des messages et des communications</strong>"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__access_warning
+msgid "Access warning"
+msgstr "Avertissement d'accès"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_needaction
+msgid "Action Needed"
+msgstr "Action nécessaire"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Décoration de l'exception d'activité"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_state
+msgid "Activity State"
+msgstr "Etat d'activité"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "All"
+msgstr "Tout"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__appointee_id
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Appointee"
+msgstr "Personne nommée"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__appointee_interaction
+msgid "Appointee interaction"
+msgstr "Interaction avec la personne nommées"
+
+#. module: s2u_online_appointment
+#: model:ir.ui.menu,name:s2u_online_appointment.menu_appointment
+msgid "Appointment"
+msgstr "Rendez-vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Appointment Date"
+msgstr "Date de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.appointment_option_form_view
+msgid "Appointment Option"
+msgstr "Option de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model:ir.actions.act_window,name:s2u_online_appointment.appointment_option_action
+#: model:ir.ui.menu,name:s2u_online_appointment.menu_appointment_option
+msgid "Appointment Options"
+msgstr "Options de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model:ir.model,name:s2u_online_appointment.model_s2u_appointment_registration
+msgid "Appointment Registration"
+msgstr "Inscription au rendez-vous"
+
+#. module: s2u_online_appointment
+#: model:ir.model,name:s2u_online_appointment.model_s2u_appointment_slot
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.appointment_slot_form_view
+msgid "Appointment Slot"
+msgstr "Créneau de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model:ir.actions.act_window,name:s2u_online_appointment.appointment_slot_action
+#: model:ir.ui.menu,name:s2u_online_appointment.menu_appointment_slot
+msgid "Appointment Slots"
+msgstr "Créneaux de rendez-vous"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Appointment not found."
+msgstr "Rendez-vous non trouvé"
+
+#. module: s2u_online_appointment
+#: model:ir.model,name:s2u_online_appointment.model_s2u_appointment_option
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__name
+msgid "Appointment option"
+msgstr "Option de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.appointment_option_tree_view
+msgid "Appointment options"
+msgstr "Options de rendez-vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "Appointment scheduled!"
+msgstr "Agenda des rendez-vous!"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_layout
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_home
+msgid "Appointments"
+msgstr "Rendez-vous"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre de pièces jointes"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Cancel appointment"
+msgstr "Annuler le rendez-vous"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#: code:addons/s2u_online_appointment/models/appointment_registration.py:0
+#: model:ir.model.fields.selection,name:s2u_online_appointment.selection__s2u_appointment_registration__state__cancel
+#, python-format
+msgid "Canceled"
+msgstr "Annulé"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Close"
+msgstr "Fermer"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Confirm appointment"
+msgstr "Confirmation du rendez-vous"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__partner_id
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Contact"
+msgstr "Contact"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__create_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__create_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__create_uid
+msgid "Created by"
+msgstr "Crée par"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__create_date
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__create_date
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__create_date
+msgid "Created on"
+msgstr "Crée le"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__access_url
+msgid "Customer Portal URL"
+msgstr "Url du portail client"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "Date ↑"
+msgstr "Date ↑"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "Date ↓"
+msgstr "Date ↓"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__day
+msgid "Day"
+msgstr "Jour"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__display_name
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__display_name
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage "
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__duration
+msgid "Duration"
+msgstr "Durée"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__email_cc
+msgid "Email cc"
+msgstr "Email copie"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__event_id
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__name
+msgid "Event"
+msgstr "Evénement"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__appointment_end
+msgid "Event End Date"
+msgstr "Date de fin de l'événement"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__appointment_begin
+msgid "Event Start Date"
+msgstr "Date de début de l'évenement"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_follower_ids
+msgid "Followers"
+msgstr "Suiveurs"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Suiveurs (Chaines)"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Suiveurs (Partenaires)"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Friday"
+msgstr "Vendredi"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "From"
+msgstr "De"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__id
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__id
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__id
+msgid "ID"
+msgstr "Identifiant"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_exception_icon
+msgid "Icon"
+msgstr "Icone"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icone pour indiqué l'activité"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_needaction
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si la case est cochée, de nouveaux messages requièrent votre attention"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_has_error
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si la case est cochée, certains messages n'ont pas étés distribués "
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_is_follower
+msgid "Is Follower"
+msgstr "Est adepte"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option____last_update
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration____last_update
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le "
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__write_uid
+msgid "Last Updated by"
+msgstr "Dernière modifications par"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__users_allowed
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__write_uid
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__user_specific
+msgid "Users specific"
+msgstr "Utilisateurs spécifiques"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_option__write_date
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__write_date
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__write_date
+msgid "Last Updated on"
+msgstr "Dernière modification le"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__email_cc
+msgid "List of cc from incoming emails."
+msgstr "Liste des personne en copie dans le mail"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale "
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur d'envoi du message"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Monday"
+msgstr "Lundi"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "Name"
+msgstr "Nom"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#, python-format
+msgid "Newest"
+msgstr "Le plus récent"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Deadlin de la prochaine activitée"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_summary
+msgid "Next Activity Summary"
+msgstr "Sommaire de la prochaine activiée"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_type_id
+msgid "Next Activity Type"
+msgstr "Type de la prochaine activiée"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages qui nécessitent une action"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec une erreur d'envoi"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de message non lu"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/portal.py:0
+#: code:addons/s2u_online_appointment/models/appointment_registration.py:0
+#: model:ir.model.fields.selection,name:s2u_online_appointment.selection__s2u_appointment_registration__state__pending
+#, python-format
+msgid "Pending"
+msgstr "En attente"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please enter a valid email address."
+msgstr "Entrez une adresse valide s'il vous plaît."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please enter your email address."
+msgstr "Entrez votre adresse mail s'il vous plaît."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please enter your name."
+msgstr "Entrez votre nom."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please enter your phonenumber."
+msgstr "Entrez votre numéro de téléphone"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please select a valid appointee."
+msgstr "Sélectionnez un rendez-vous valide."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please select a valid date."
+msgstr "Sélectionnez une date valide."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please select a valid subject."
+msgstr "Selectionnez un sujet valide."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Please select a valid timeslot."
+msgstr "Selectionnez un créneau horaire valide"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__access_url
+msgid "Portal Access URL"
+msgstr "Url d'accès au portail
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Remarks"
+msgstr "Remarques"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Remarks:"
+msgstr "Remarques:"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__activity_user_id
+msgid "Responsible User"
+msgstr "Utilisateur responsable"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erreur de livraison SMS"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Saturday"
+msgstr "Samedi"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_registration.py:0
+#: model:ir.model.fields.selection,name:s2u_online_appointment.selection__s2u_appointment_registration__state__valid
+#, python-format
+msgid "Scheduled"
+msgstr "Agenda"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: s2u_online_appointment
+#. openerp-web
+#: code:addons/s2u_online_appointment/static/src/js/main.js:0
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+#, python-format
+msgid "Select"
+msgstr "Selectionné"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "Sign In"
+msgstr "Se connecter"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__slot
+msgid "Slot"
+msgstr "Créneau"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/controllers/main.py:0
+#, python-format
+msgid "Slot is already occupied, please choose another slot."
+msgstr "Ce créneau est déja pris, veuillez choisir un autre créneau."
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.appointment_slot_tree_view
+msgid "Slots"
+msgstr "Créneaux"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "Sorry, no access!"
+msgstr "Désolé, aucun accès!"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__appointment_begin
+msgid "Start date of an event, without time for full days events"
+msgstr "Date de début d'un événement, sans heure pour les événements d'une journée entière"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__state
+msgid "Status"
+msgstr "Statut"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+ "Statut basé sur les actvités\n"
+ "En retard : La date d'échéance est déjà dépassée\n"
+ "Aujourd'hui : le jour de l'activité est aujourd'hui\n"
+ "Planifié : Activités futures\n"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__appointment_end
+msgid "Stop date of an event, without time for full days events"
+msgstr "Date de fin d'un événement, sans heure pour les événements d'une journée entière"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Subject"
+msgstr "Sujet"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Submit"
+msgstr "Soumettre"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Sunday"
+msgstr "Dimanche"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "Thank You!"
+msgstr "Merci!"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_option.py:0
+#, python-format
+msgid "The duration value must be between 0:05 and 8:00!"
+msgstr "La valeur de la durée doit être entre 0:05 et 8:00!"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "The selected appointment will be canceled."
+msgstr "Le rendez-vous séléctionné sera annulé."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "The slot value must be between 0:00 and 23:59!"
+msgstr "Le créneau doit être entre 0:00 et 23:59 !"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+msgid "There are no appointments."
+msgstr "Il n'y a pas de rendez-vous."
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Thursday"
+msgstr "Jeudi"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "Till"
+msgstr "Jusqu'à"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Timeslot"
+msgstr "Tranche horaire"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "To schedule an appointment please,"
+msgstr "Pour prendre un rendez-vous veuillez,"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Tuesday"
+msgstr "Mardi"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité exceptionnelle dans le dossier"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_unread
+msgid "Unread Messages"
+msgstr "Message non lu"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_slot__user_id
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,field_description:s2u_online_appointment.field_s2u_appointment_registration__website_message_ids
+msgid "Website Messages"
+msgstr "Site web messages"
+
+#. module: s2u_online_appointment
+#: model:ir.model.fields,help:s2u_online_appointment.field_s2u_appointment_registration__website_message_ids
+msgid "Website communication history"
+msgstr "Site web historique de communication"
+
+#. module: s2u_online_appointment
+#: code:addons/s2u_online_appointment/models/appointment_slot.py:0
+#, python-format
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "With"
+msgstr "Avec"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointments
+msgid "With:"
+msgstr "Avec:"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "You"
+msgstr "Vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.portal_my_appointment
+msgid "You are going to confirm this appointment."
+msgstr "Vous allez confimer le rendez-vous."
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "Your Appointment"
+msgstr "Votre rendez-vous"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "Your Appointment has been scheduled."
+msgstr "Votre rendez-vous a été fixé"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Your Email"
+msgstr "Votre Email"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Your Name"
+msgstr "Votre nom"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "Your Phone"
+msgstr "Votre téléphone."
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.make_appointment
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.thanks
+msgid "has been scheduled for"
+msgstr "A été programmé pour"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "or"
+msgstr "ou"
+
+#. module: s2u_online_appointment
+#: model_terms:ir.ui.view,arch_db:s2u_online_appointment.only_registered_users
+msgid "to access this page."
+msgstr "Pour accéder à cette page."

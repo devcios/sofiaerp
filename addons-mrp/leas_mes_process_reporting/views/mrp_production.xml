@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+
+        <record id="sit_mrp_production_workorder_with_button" model="ir.ui.view">
+            <field name="name">sit_mrp_production_workorder_with_button</field>
+            <field name="model">mrp.production</field>
+            <field name="inherit_id" ref="mrp.mrp_production_form_view" />
+            <field name="arch" type="xml">
+
+                <xpath expr="//button[@name='action_view_mrp_production_childs']" position="after">
+                    <button class="oe_stat_button" icon="fa-play-circle-o"   type="object"     name="sit_view_work_order"    string="Orden de Trabajo"  attrs="{'invisible': [ ('sit_hay_orden_de_trabajo', '=', False)]}"   />
+                    <button type="object" name="action_mrp_workorder_view_form_tablet" class="oe_stat_button" icon="fa-tablet"  string="Orden de Trabajo(T)" attrs="{'invisible': [ ('sit_hay_orden_de_trabajo', '=', False)]}"   />
+                    <field name="sit_hay_orden_de_trabajo" invisible="1"/>
+                    
+
+                </xpath>
+            </field>
+        </record>
+
+
+
+    </data>
+</odoo>
