@@ -99,7 +99,7 @@ class Currency(models.Model):
                 _logger.info("SIT result1 =%s", result)
 
                 if result:
-                    rate = result['compra']
+                    rate = result['venta']
                     data = self.rate_connection(rate, result, company, currency)
                     _logger.info("SIT data1 =%s", data)
 
