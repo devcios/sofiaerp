@@ -8,6 +8,7 @@
     'author': 'olitech.dev',
     'license': 'OEEL-1',
 'description': """
+
 EDI Peru Localization
 ======================
 Allow the user to generate the EDI document for Peruvian invoicing.

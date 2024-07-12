@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Copyright (C) 2019-TODAY OPeru.
-#    Author      :  Grupo Odoo S.A.C. (<http://www.operu.pe>)
+#    Copyright (C)  2024.
+#    Author      :  Sofia ERP (<http://www.sofiaerp.com>)
 #
 #    This program is copyright property of the author mentioned above.
 #    You can`t redistribute it and/or modify it.
@@ -10,12 +10,12 @@
 ###############################################################################
 
 {
-    'name': 'Consulta Tipo de cambio Peru del día',
+    'name': 'Modulo de Tipo de cambio del día - Perú',
     'version': '15.0.1.0',
-    'author': 'OPeru',
-    'summary': 'Consulta Tipo de cambio Peru del día ',
+    'author': 'Sofia ERP ',
+    'summary': 'Modulo de Tipo de cambio del día - Perú',
     'description': '''  ''',
-    'website': 'hhttp://www.operu.pe/facturacion-electronica',
+    'website': 'hhttp://www.sofiaerp.com/facturacion-electronica',
     'depends': ['base','account'],
     "data": [
         'views/res_currency_view.xml',
@@ -31,5 +31,5 @@
     'images': ['static/description/banner.png'],
     'license': 'OPL-1',
     'sequence': 1,
-    'support': 'modulos@operu.pe',
+    'support': 'modulos@sofiaerp',
 }
