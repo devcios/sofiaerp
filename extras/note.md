@@ -2,7 +2,7 @@
 
 # Usuario secundario demo 
 
-Factura2
+FACTURA2
 Factura2
 
 # Clave certificado digital
