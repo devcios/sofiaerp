@@ -2,7 +2,7 @@
 
 Sofia ERP es un software open source apps basada en licencia LGPL.
 
-Para mayor información http://sofiaerp.com.
+Para mayor información http://sofiaerp.com
 
 # docker-odoo-15
 ```
