@@ -84,6 +84,8 @@ Sigue las instrucciones en pantalla. Certbot editará automáticamente tu config
 
 # 4. Verificar la configuración de Nginx
 
+Importante: Verificar que el archivo default se eliminado  de /etc/nginix/sites-enabled/
+
 Certbot debería haber modificado tu archivo de configuración para manejar SSL. Verifica que el archivo de configuración se vea algo así:
 
 ```
