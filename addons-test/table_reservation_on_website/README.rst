@@ -44,3 +44,5 @@ For support and more information, please visit `Our Website <https://cybrosys.co
 Further information
 ===================
 HTML Description: `<static/description/index.html>`__
+
+https://github.com/i-gitit/BusTicketing_AngularApp
