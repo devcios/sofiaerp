@@ -17,7 +17,6 @@ services:
       - ./addons-mrp:/mnt/extra-addons-mrp
       - ./addons-inventario:/mnt/extra-addons-inventario
       - ./addons-ventas:/mnt/extra-addons-ventas
-      - ./addons-compras:/mnt/extra-addons-compras
       - ./addons-test:/mnt/addons-test
     environment:
       - VIRTUAL_HOST=ghlingenieros.com

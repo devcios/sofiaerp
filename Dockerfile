@@ -5,3 +5,4 @@ USER root
 
 RUN pip3 install dropbox
 
+USER odoo

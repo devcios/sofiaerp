@@ -1,0 +1,12 @@
+# Docker
+.env
+*.log
+
+# Odoo / Python
+*.pyc
+__pycache__/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
