@@ -20,6 +20,9 @@ services:
       - ./addons-test:/mnt/addons-test
     environment:
       - VIRTUAL_HOST=ghlingenieros.com
+      - HOST=${DB_HOST}
+      - USER=${DB_USER}
+      - PASSWORD=${DB_PASSWD}
     entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf"
     restart: always
   db:
